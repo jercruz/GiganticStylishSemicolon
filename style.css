@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  height: auto;
+  width: 100vw;
+  position: absolute;
+  overflow-x: hidden;
+}
+
+.narutoicon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav {
+  word-spacing: 50px;
+  text-align: center;
+}
+
+nav ul {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+}
+
+nav li {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding-top: 0px;
+  position: relative;
+}
+
+nav a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: bold;
+  padding-top: 7px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background: blue;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+
+

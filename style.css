@@ -133,3 +133,6 @@ div {
   color: white;
   align-content: stretch;
 }
+
+
+div.header{background:#E4E9F2; width:100%; margin:0 auto;}
